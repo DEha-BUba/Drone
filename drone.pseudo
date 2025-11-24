@@ -1,0 +1,32 @@
+BAŞLA
+
+Veri okuma 
+
+Yük oku
+Hız oku
+Yükseklik oku 
+
+Pil Yüzdesi Hesaplama:
+
+Not: Tamsayı bölme uygulanacak.
+pilTüketimi = (hız / 10) * 5
+kalanPil = 100 - pilTüketimi
+
+Koşullar :
+
+eğer yük > 500 ise
+    cıktı "Ağır yük, uçamaz!"
+
+eğer değilse kalanPil < 30 ise
+    cıktı "Pil seviyesi düşük, uçuş güvensiz!"
+
+eğer değilse yükseklik > 200 ise
+    cıktı "Radar Dışı, uçuş güvensiz!"
+
+eğer değilse yükseklik < 20 ise
+    cıktı "Yükseklik güvensiz, uçuş güvensiz!"
+
+değilse
+    cıktı "Uçuş güvenli! Kalan pil: %" + kalanPil
+
+BİTİR
